@@ -1,5 +1,6 @@
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
+import './css/styles.css';
 import { photoRequest } from './js/request';
 import { markupCreation } from './js/markup-creation';
 import "simplelightbox/dist/simple-lightbox.min.css";
