@@ -45,9 +45,9 @@ async function markupСreation() {
     ref.gallery.insertAdjacentHTML('beforeend', markupCreation(photoArray));
     const lightbox = new SimpleLightbox(".gallery a");
 
-    if(response.data.total <= 40) {
-        ref.buttonPage.classList.remove('button-hidden');
-    };
+    
+    ref.buttonPage.classList.remove('button-hidden');
+    
 }
 
 ref.buttonPage.addEventListener('click', (e) => {
