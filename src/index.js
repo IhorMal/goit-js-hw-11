@@ -33,21 +33,21 @@ async function markupСreation() {
 
     const photoArray = response.data;
 
-    numberPhotos = photoArray.totalHits;
-    
     if (photoArray.hits.length === 0) {        
         Notiflix.Notify.failure("Sorry, there are no images matching your search query. Please try again.");
+        ref.buttonPage.classList.add('button-hidden')
         return;
-    } 
-
+    };
+    numberPhotos = photoArray.totalHits;
+    
     Notiflix.Notify.success(`Hooray!Are available to you ${numberPhotos} photos`);
     
     ref.gallery.insertAdjacentHTML('beforeend', markupCreation(photoArray));
     const lightbox = new SimpleLightbox(".gallery a");
 
-    
-    ref.buttonPage.classList.remove('button-hidden');
-    
+    if(response.data.total >= 40) {
+        ref.buttonPage.classList.remove('button-hidden')
+    };
 }
 
 ref.buttonPage.addEventListener('click', (e) => {
