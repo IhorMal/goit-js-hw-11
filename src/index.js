@@ -22,7 +22,7 @@ function onSearchNames(e) {
     e.preventDefault()
     const { searchQuery } = e.currentTarget.elements;
     name = searchQuery.value;
-
+    ref.buttonPage.classList.add('button-hidden')
     markupСreation().finally( () => searchQuery.value = '')
     ref.gallery.innerHTML = '';
     page = 1;    
