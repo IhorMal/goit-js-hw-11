@@ -1,10 +1,12 @@
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
-import './css/styles.css';
-import { photoRequest } from './js/request';
-import { markupCreation } from './js/markup-creation';
 import "simplelightbox/dist/simple-lightbox.min.css";
 
+import './css/styles.css';
+import { photoRequest } from './js/request';
+import { markingGallery } from './js/markup-creation';
+
+let lightbox = new SimpleLightbox(".gallery a");
 let page = 1;
 let name = null;
 const perPage = 40;
@@ -22,10 +24,15 @@ function onSearchNames(e) {
     e.preventDefault()
     const { searchQuery } = e.currentTarget.elements;
     name = searchQuery.value;
+    page = 1;
+    
     ref.buttonPage.classList.add('button-hidden')
-    markupСreation().finally( () => searchQuery.value = '')
-    ref.gallery.innerHTML = '';
-    page = 1;    
+
+    markupСreation().finally(() => {
+        Notiflix.Notify.success(`Hooray!Are available to you ${numberPhotos} photos`);  
+        searchQuery.value = '';
+    })
+    ref.gallery.innerHTML = '';  
 }
 
 async function markupСreation() {
@@ -39,25 +46,23 @@ async function markupСreation() {
         return;
     };
     numberPhotos = photoArray.totalHits;
+    ref.gallery.insertAdjacentHTML('beforeend', markingGallery(photoArray));
     
-    Notiflix.Notify.success(`Hooray!Are available to you ${numberPhotos} photos`);
-    
-    ref.gallery.insertAdjacentHTML('beforeend', markupCreation(photoArray));
-    const lightbox = new SimpleLightbox(".gallery a");
+    lightbox.refresh()
 
     if(response.data.total >= 40) {
         ref.buttonPage.classList.remove('button-hidden')
     };
 }
 
-ref.buttonPage.addEventListener('click', (e) => {
-    let totalNumber = perPage * page;
-    
-    if (totalNumber >= numberPhotos) {
-        Notiflix.Notify.info("We're sorry, but you've reached the end of search results.");
-        return
-    }
+ref.buttonPage.addEventListener('click', () => {
+    let totalNumber = Math.ceil(numberPhotos / perPage);
 
     page += 1;
-    markupСreation(name, page, perPage);
+    if (page > totalNumber) {
+        Notiflix.Notify.info("We're sorry, but you've reached the end of search results.");
+        ref.buttonPage.classList.add('button-hidden');
+        return;
+    }
+    markupСreation();
 })

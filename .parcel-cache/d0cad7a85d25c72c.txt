@@ -66,7 +66,7 @@
 77C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\@parcel\optimizer-svgo133083147424448067 1
 79C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\abortcontroller-polyfill133083147419458065 1
 86C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\caniuse-lite\data\regions\PK.js121436361000000000 0
-46C:\Users\38073\Desktop\goit\goit-js-hw-11\dist133083624672199263 1
+46C:\Users\38073\Desktop\goit\goit-js-hw-11\dist133084068882737173 1
 81C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\nth-check\lib\compile.d.ts121436361000000000 0
 86C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\caniuse-lite\data\regions\KN.js121436361000000000 0
 86C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\weak-lru-cache\rollup.config.js121436361000000000 0
@@ -168,7 +168,7 @@
 88C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\caniuse-lite\data\features\sni.js121436361000000000 0
 92C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\svgo\plugins\moveElemsAttrsToGroup.js121436361000000000 0
 88C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\postcss-value-parser\lib\index.js121436361000000000 0
-54C:\Users\38073\Desktop\goit\goit-js-hw-11\src\index.js133083623609819544 0
+54C:\Users\38073\Desktop\goit\goit-js-hw-11\src\index.js133084069294148196 0
 107C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\caniuse-lite\data\features\link-rel-modulepreload.js121436361000000000 0
 66C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\cosmiconfig133083147422328234 1
 80C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\follow-redirects\debug.js121436361000000000 0
@@ -193,7 +193,7 @@
 74C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\fast-glob\README.md121436361000000000 0
 88C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\cosmiconfig\dist\loaders.d.ts.map121436361000000000 0
 86C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\caniuse-lite\data\regions\SZ.js121436361000000000 0
-67C:\Users\38073\Desktop\goit\goit-js-hw-11\src\js\markup-creation.js133083491808180528 0
+67C:\Users\38073\Desktop\goit\goit-js-hw-11\src\js\markup-creation.js133084049166801803 0
 60C:\Users\38073\Desktop\goit\goit-js-hw-11\src\css\styles.css133083624670089272 0
 66C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\safe-buffer133083147428558069 1
 90C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\css-tree\lib\syntax\function\var.js121436361000000000 0
@@ -2843,7 +2843,7 @@
 67C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\css-what\lib133083147281988080 1
 98C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\cosmiconfig\dist\getPropertyByPath.d.ts.map121436361000000000 0
 72C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\buffer\index.d.ts121436361000000000 0
-65C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.77a9bc14.css133083624672139295 0
+65C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.77a9bc14.css133084061173303147 0
 103C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\caniuse-lite\data\features\navigator-language.js121436361000000000 0
 99C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\entities\lib\generated\decode-data-html.d.ts121436361000000000 0
 81C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\@jridgewell\set-array\dist133083147285688095 1
@@ -3110,7 +3110,7 @@
 86C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\css-tree\lib\lexer\structure.js121436361000000000 0
 92C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\@parcel\reporter-cli\src\logLevels.js121436361000000000 0
 82C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\css-tree\lib\lexer\trace.js121436361000000000 0
-64C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.975ef6c8.js133083623613289629 0
+64C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.975ef6c8.js133084068882667169 0
 97C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\css-tree\lib\definition-syntax\generate.js121436361000000000 0
 100C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\css-tree\lib\definition-syntax\SyntaxError.js121436361000000000 0
 107C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\caniuse-lite\data\features\prefers-reduced-motion.js121436361000000000 0
@@ -4923,8 +4923,8 @@
 70C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\.bin\semver.cmd133083147436728269 0
 68C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\.bin\svgo.ps1133083147436798072 0
 70C:\Users\38073\Desktop\goit\goit-js-hw-11\node_modules\.bin\terser.ps1133083147436838073 0
-69C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.77a9bc14.css.map133083624672139295 0
-68C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.975ef6c8.js.map133083623613349607 0
-57C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.html133083605459511172 0
+69C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.77a9bc14.css.map133084061173303147 0
+68C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.975ef6c8.js.map133084068882707234 0
+57C:\Users\38073\Desktop\goit\goit-js-hw-11\dist\index.html133084061173493188 0
 74C:\Users\38073\Desktop\goit\goit-js-hw-11\assets\actions-config-step-1.png132987303040000000 0
 59C:\Users\38073\Desktop\goit\goit-js-hw-11\assets\status.png132987303040000000 0

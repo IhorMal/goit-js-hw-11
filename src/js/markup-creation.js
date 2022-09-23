@@ -1,4 +1,4 @@
-function markupCreation(photoArray) {
+function markingGallery(photoArray) {
     return photoArray.hits.map((item) => {
         const {webformatURL,largeImageURL,tags,likes,views,comments,downloads} = item
         return `
@@ -23,4 +23,4 @@ function markupCreation(photoArray) {
     }).join('');
 }
 
-export{markupCreation}
+export { markingGallery };
